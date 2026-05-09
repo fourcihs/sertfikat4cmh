@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Certificate SMA Negeri 4 Cimahi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+        iframe {
+            position: absolute;
+            top: -45px; /* Trik utama: Geser iframe ke atas untuk menyembunyikan banner */
+            left: 0;
+            width: 100%;
+            height: calc(100% + 45px);
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="URL_DEPLOY_GOOGLE_KAMU"></iframe>
+</body>
+</html>
