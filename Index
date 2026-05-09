@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>E-Certificate SMA Negeri 4 Cimahi</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Sertifikat SMAN 4 Cimahi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <style>
-        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+        body, html { 
+            margin: 0; padding: 0; height: 100%; width: 100%;
+            overflow: hidden; background-color: #764ba2; /* Warna senada tema kita */
+        }
         iframe {
             position: absolute;
-            top: -45px; /* Trik utama: Geser iframe ke atas untuk menyembunyikan banner */
+            top: -45px; /* Ini jurus menghapus banner biru Google */
             left: 0;
             width: 100%;
             height: calc(100% + 45px);
